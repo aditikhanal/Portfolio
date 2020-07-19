@@ -100,13 +100,14 @@ const FlexContainer = styled.div`
   max-width: 120rem;
   display: flex;
   margin: auto;
+  float:right;
   padding: 0 2rem;;
   justify-content: space-between;
   height: 5rem;
 `;
 
 const NavLinks = styled(animated.ul)`
-  justify-self: end;
+  //justify-self: end;
   list-style-type: none;
   margin: auto 0;
   
@@ -125,9 +126,9 @@ const NavLinks = styled(animated.ul)`
       border-bottom: 1px solid #fdcb6e;
     }
 
-    @media (max-width: 768px) {
-      display: none;
-    }
+    // @media (max-width: 768px) {
+    //   display: none;
+    // }
   }
 `;
 

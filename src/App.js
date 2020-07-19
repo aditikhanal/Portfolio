@@ -4,9 +4,11 @@ import Home from "./components/home"
 import ScrollButton from "./components/ScrollButton"
 import About from "./components/about.js"
 import Project from "./components/project.js"
+import List from "./components/listofprojects.js"
 import NavBar from "./components/NavBar.js"
-import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-import ReactDOM from "react-dom"
+
+import resumeData from "./portfolioData"
+
 
 
 
@@ -29,10 +31,14 @@ class App extends Component {
     
         <Home />
         <About />
+     
         <Project />
+     
+        <List resumeData={resumeData}/>
         
         {/* <Background/> */}
         <ScrollButton scrollStepInPx="50" delayInMs="16.66" />
+        
 
       </div>
     );

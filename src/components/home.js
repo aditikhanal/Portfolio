@@ -20,32 +20,32 @@ class Card extends React.Component {
                     <li></li>
                     <li></li>
 
-                    <div className="fontcontainer">
-                        <p className="aboutfont">Hi! I am Aditi</p>
+                    {/* <div className="fontcontainer">
+                        <p className="aboutfont"></p>
                         <br></br>
-                        <p className="aboutfont2">React Native Developer</p>
-                    </div>
+                        <p className="aboutfont2"></p>
+                    </div> */}
+                
+                  
+                <div class="text-box">
+                    <h1 class="heading-primary">
+                    <span class="heading-primary-main">Hi! I am Aditi</span>
+                    <span class="heading-primary-sub">React Native Developer</span>
+                    </h1>
+                
+                </div>
 
-                    <div className="card">
-                        <div className="shadow">
-                            <div
-                                className="shadowImage"
-                            >
-
-                            </div>
-                        </div>
+                <div class="imgdiv">
                         <div
-                            className="image"
-
-
-                        >
+                            className="image">
 
                             <img className="card" src="images/about.png"></img>
                         </div>
                     </div>
+                 
                 </ul>
 
-
+              
             </div>
             </section>
 
