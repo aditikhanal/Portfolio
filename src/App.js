@@ -6,6 +6,8 @@ import About from "./components/about.js"
 import Project from "./components/project.js"
 import List from "./components/listofprojects.js"
 import NavBar from "./components/NavBar.js"
+import FullpageWrapper from "./components/fullpage.js"
+
 
 import resumeData from "./portfolioData"
 
@@ -33,10 +35,12 @@ class App extends Component {
         <About />
      
         <Project />
+    
+
      
         <List resumeData={resumeData}/>
         
-        {/* <Background/> */}
+        
         <ScrollButton scrollStepInPx="50" delayInMs="16.66" />
         
 
