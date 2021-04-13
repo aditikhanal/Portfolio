@@ -27,7 +27,7 @@ class About extends React.Component {
                                             <span class="circle" aria-hidden="true">
                                                 <span class="icon arrow"></span>
                                             </span>
-                                            <span class="button-text">  View on Github</span>
+                                            <span class="button-text">  View on Github!</span>
                                         </button></a>
                                 </div>
 
