@@ -1,13 +1,9 @@
 import React from 'react'
 import styled from "styled-components";
 import { useSpring, animated, config } from "react-spring";
-import { BrowserRouter, Route, Switch} from 'react-router-dom';
+
 import { Link, animateScroll as scroll } from "react-scroll";
 
-import Home from "./home.js"
-import About from "./about.js"
-import Projects from "./project.js"
-import ReactDOM from "react-dom"
 
 const Navbar = (props) => {
   const barAnimation = useSpring({

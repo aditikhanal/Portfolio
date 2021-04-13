@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import Background from "./Background.js"
+
 import Home from "./components/home"
 import ScrollButton from "./components/ScrollButton"
 import About from "./components/about.js"
 import Project from "./components/project.js"
 import List from "./components/listofprojects.js"
 import NavBar from "./components/NavBar.js"
-import FullpageWrapper from "./components/fullpage.js"
+
 
 
 import resumeData from "./portfolioData"
