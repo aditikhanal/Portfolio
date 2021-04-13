@@ -1,6 +1,2 @@
-
-var connect = require("connect");
-
-var app = connect().use(connect.static(__dirname + '/src'));
-
-app.listen(8180);
+var express = require('express');
+var app = express();app.use(express.static(__dirname + '/src'));app.listen(process.env.PORT || 8080);
