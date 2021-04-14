@@ -14,7 +14,7 @@ class About extends React.Component {
                     {/* <img class="img-me" src="images/me.jpg" ></img> */}
 
                     <text class="edu-text">Education</text>
-                    <text class="eduw-text">4th year, Computer Engineering, Kathmandu Engineering College, 2016-2020</text>
+                    <text class="eduw-text">Computer Engineering, Kathmandu Engineering College, 2016-2021</text>
                     <div id="img1" class="square show-on-scroll">
                         <img class="img" src="images/graduation.png"></img>
                     </div>
