@@ -13,7 +13,7 @@ class Project extends React.Component {
                     <img class="laptop" src="images/laptop.png" ></img>
                     <div class="textcontainer">
                     <span class="work">What I have been upto!</span>
-                    <span class="work2">Here are some of my recent projects.</span>
+                    <span class="work2">Here are some of my recent projects!</span>
                     </div>
                     <img class="workimg" src="images/work.png" ></img>
                     </div>
